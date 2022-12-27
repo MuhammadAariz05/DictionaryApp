@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DictionaryX</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="title">DictionaryX</h1>
+        <ul class="menu">
+            <li class="menuitem"><a class="navlink" href="#">Home</a></li>
+            <li class="menuitem"><a class="navlink" href="https://github.com/MuhammadAariz05">Source Code</a></li>
+        </ul>
+    </nav>
+    <div class="mainapp">
+        <div class="welcomebar">
+            <h2 class="welcome">Welcome to DictionaryX!</h2>
+            <p class="slogan">Explore the world of words and meanings with us</p>
+        </div>
+        <div class="searchbar">
+            <input id="wordinput" type="text" class="inputbox" placeholder="Enter search term" title="Enter search term here"/>
+            <button class="btn" onclick="meaning(wordinput.value)">Learn</button>
+        </div>
+        <div class="meaningsection">
+            <h3 id="wordinp" class="wordinp">Search for any word</h3>
+            <p id="wordmeaning" class="wordmeaning">The meaning of the word you're searching for, the meaning of which will appear here. If you found this app useful then you may want to follow the developer on <a href="https://www.instagram.com/aarizish">Instagram</a>. The source code of this app is available to download at no cost.</p>
+        </div>
+        <div id="errorsection" class="error">
+            <p class="errortext">Sorry! The word you entered is not valid</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
