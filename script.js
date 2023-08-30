@@ -6,7 +6,7 @@ function meaning(word) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'b49cda3399msh839ec7e70ef06c4p103424jsn192b5b030984',
+            'X-RapidAPI-Key': 'XXX',
             'X-RapidAPI-Host': 'dictionary-by-api-ninjas.p.rapidapi.com'
         }
     };
